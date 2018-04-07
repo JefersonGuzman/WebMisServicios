@@ -1,0 +1,23 @@
+
+.servicio1{
+    background-color: aqua;
+    content: center;
+    
+    padding: 5px 50px 5px 5px;
+    overflow:hidden;
+    
+}
+.servicio2{
+    background-color: red;
+    content: center;
+    padding: 2px 50px 5px 5px;
+    overflow:hidden;
+    
+}
+.servicio3{
+    background-color: aqua;
+    content: center;
+    padding: 5px 182px 5px 5px;
+    overflow:hidden;
+    
+}
