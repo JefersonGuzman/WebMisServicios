@@ -1,23 +1,164 @@
 
 .servicio1{
-    background-color: aqua;
     content: center;
-    
     padding: 5px 50px 5px 5px;
     overflow:hidden;
+    background-color:#EEEDEC;
     
 }
 .servicio2{
-    background-color: red;
     content: center;
     padding: 2px 50px 5px 5px;
     overflow:hidden;
+    background-color:#EEEDEC;
     
 }
 .servicio3{
-    background-color: aqua;
     content: center;
-    padding: 5px 182px 5px 5px;
+    padding: 5px 50px 5px 5px;
     overflow:hidden;
+    background-color:#EEEDEC;
     
+}
+
+
+.item>img{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+footer
+{
+    background-color:darkslategrey;
+    color: white;
+}
+.texto {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 950px;
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+.descrip{
+
+    height: 150px;
+}
+.texto_carousel{
+    margin: auto;
+    display: table;
+}
+.text_carousel>h1{
+    float:left;
+    color: white;
+    position: absolute;
+    
+}
+h1 span {
+    position:absolute;
+    right: 0;
+    width: 10;
+    background:#EEEDEC;
+    border-left: 1px solid #000;
+    animation: maquina 5s infinite alternate steps(29);
+}
+h1{
+    text-align: center;
+    margin-left: -20px;
+
+}
+
+@keyframes maquina{
+    from{
+        width: 90%;
+    }to{
+        width: 0;
+    }
+}
+.img_metodo_1{
+    background-color: red;
+    border-radius:80px;
+    padding: 20px;
+}
+.img_metodo_2{
+    background-color: skyblue;
+    border-radius:80px;
+    padding: 20px;
+
+}
+.img_metodo_3{
+    background-color:black;
+    border-radius:80px;
+    padding: 20px;
+
+}
+.img_metodo_4{
+    background-color: orange;
+    border-radius:80px;
+    padding: 20px;
+
+}
+.img_metodo_5{
+    background-color:#4876FF;
+    border-radius:80px;
+    padding: 20px;
+
+}
+.img_metodo_6{
+    background-color:#FF8C00;
+    border-radius:80px;
+    padding: 20px;
+
+}
+.img_metodo_7{
+    background-color:#4876FF;
+    border-radius:80px;
+    padding: 20px;
+
+}
+.img_metodo_8{
+    background-color:#fff;
+    border-radius:90px;
+    padding: 20px;
+
+}
+
+.metodo_1{
+    text-align: center;
+    background-color:#EEEDEC;
+    
+    
+}
+.metodo_2{
+    text-align: center;
+    background-color:#838B8B;
+}
+.metodo_3{
+    text-align: center;
+    background-color:#EEEDEC;
+}
+.metodo_4{
+    text-align: center;
+    background-color:#838B8B;
+}
+.metodo_5{
+    text-align: center;
+    background-color:#8C8C8C;
+}
+.metodo_6{
+    text-align: center;
+    background-color:#C1CDCD;
+}
+.metodo_7{
+    text-align: center;
+    background-color:#8C8C8C;
+}
+.metodo_8{
+    text-align: center;
+    background-color:#EEEDEC;
 }
