@@ -10,7 +10,7 @@
    font-family: fantasy;
 }
 .servicios img{
-    width: 100%;
+    width: 70%;
 }
 .servicio1{
     content: center;
@@ -143,10 +143,15 @@ h1{
     border-radius:90px;
     padding: 20px;
 }
+.metodo img{
+    width: 100px;
+    padding: 10px;
+}
 
 .metodo_1{
     text-align: center;
     background-color:#EEEDEC;
+
 }
 .metodo_2{
     text-align: center;
@@ -184,9 +189,12 @@ h1{
     
 }
 .logos_redes img{
-    background-color: aliceblue;
-    border-radius: 50%;
+    background-color:aliceblue;
+    border-radius: 100%;
 
+}
+.logos_redes img:hover{
+        background-color:deepskyblue;
 }
 
 input{
